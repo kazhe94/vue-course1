@@ -25,7 +25,8 @@ const App = {
     },
     reset() {
       // начать заново
-      this.activeIndex = 0
+      this.activeIndex = 0,
+      this.isFinished = false
     },
     nextOrFinish() {
       // кнопка вперед или закончить
